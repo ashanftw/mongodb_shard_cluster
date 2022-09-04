@@ -1,4 +1,4 @@
-<h3>mongodb_shard_cluster</h3><br>
+<h3>Config mongodb shard cluster</h3><br>
 
 <b>start config servers</b><br>
 <code>sudo mongod --config "/var/mongodb/cfgsvr1/csrs.conf"</code><br>
