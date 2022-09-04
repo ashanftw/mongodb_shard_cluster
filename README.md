@@ -26,3 +26,6 @@
 <code>sudo mongosh "mongodb://username:password</t>@localhost:27017/admin"</code><br>
 <code>sudo mongosh "mongodb://localhost:27018"</code><br>
 <code>sudo mongosh "mongodb://localhost:27019"</code>
+
+<b>connect as authenticated user</b><br>
+<code>sudo mongosh --host localhost --port 27017 --username user --password pass --authenticationDatabase admin</code>
